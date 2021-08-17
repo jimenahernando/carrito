@@ -1,6 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root{
+    --clr-primary: #ea8685;
+    --clr-secondary: #f7d794;
+    --clr-third: #63cdda;
+}
+
+body{
+    width: 100%;
+    margin: 20px;
+    color: white;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
 }
