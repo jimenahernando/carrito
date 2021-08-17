@@ -1,0 +1,10 @@
+.lista{
+    background-color: var(--clr-third);
+    padding: 15px;
+    border-radius: 0.5rem;
+    height: 100%;
+}
+
+article{
+    margin: 10px;
+}
