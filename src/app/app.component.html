@@ -2,9 +2,9 @@
 <section>
   <div>
     <app-form (productoCreado)="onProductoCreado($event)"></app-form>
-    <app-total-compra [totalCompra]="25"></app-total-compra>
+    <app-total-compra [productos]="listaProductos"></app-total-compra>
   </div>
   <div>
-    <app-lista-productos (productos)="listaProductos"></app-lista-productos>
+    <app-lista-productos [productos]="listaProductos"></app-lista-productos>
   </div>
 </section>
