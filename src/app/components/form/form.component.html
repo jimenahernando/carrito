@@ -1,12 +1,12 @@
 <div class="form">
     <div class="field">
-        <input type="text" id="producto" placeholder="PRODUCTO">
+        <input type="text" id="producto" placeholder="PRODUCTO" [(ngModel)]="producto.producto">
     </div>
     <div class="field">
-        <input type="number" id="precio" placeholder="PRECIO">
+        <input type="number" id="precio" placeholder="PRECIO" [(ngModel)]="producto.precio">
     </div>
     <div class="field">
-        <input type="number" id="cantidad" placeholder="CANTIDAD">
+        <input type="number" id="cantidad" placeholder="CANTIDAD" [(ngModel)]="producto.cantidad">
     </div>
-    <button>CARGAR</button>
+    <button (click)="cargarProducto()">CARGAR</button>
 </div>
