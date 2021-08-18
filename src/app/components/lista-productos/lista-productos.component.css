@@ -1,9 +1,16 @@
-.lista{
+ul{
     background-color: var(--clr-third);
-    padding: 15px;
+    padding: 15px 0 15px 30px;
     border-radius: 0.5rem;
     height: 100%;
+    list-style: none;
+    font-size: 1.5rem;
 }
+
+/* aca no finciona hayq ue pasarlo al general */
+/* ul li{
+    font-size: 2rem;
+} */
 
 article{
     margin: 10px;
